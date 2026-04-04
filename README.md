@@ -36,3 +36,7 @@ Tools to generate TypeScript types based on database schema:
 
 - [Prisma](https://www.prisma.io/)
 - [Drizzle](https://orm.drizzle.team/)
+
+How to update environment variables in Vercel project:
+
+- [link](https://vercel.com/docs/environment-variables)
