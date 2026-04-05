@@ -17,6 +17,10 @@ You need to sign up for the following accounts if you don't have one already:
   npm install -g pnpm
   ```
 
+### Setup Database
+
+- Follow the steps in [Chapter 6](https://nextjs.org/learn/dashboard-app/setting-up-your-database)
+
 ### Running locally
 
 - Clone this repository
