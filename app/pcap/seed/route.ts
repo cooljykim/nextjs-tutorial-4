@@ -1,7 +1,7 @@
 // @ts-nocheck
 
 import pcapParser from 'pcap-parser';
-import { decoders } from 'cap';
+// import { decoders } from 'cap';
 import postgres from 'postgres';
 import path from 'path';
 
@@ -36,6 +36,7 @@ async function seedPCAP() {
 
     const data = packet.data;
 
+    /*
     try {
       const eth = decoders.Ethernet(data);
       if (eth.ethertype === 2048) {
@@ -68,6 +69,7 @@ async function seedPCAP() {
       // Skip packets that can't be decoded
       console.log('Skipping packets that cannot be decoded:', e);
     }
+    */
   });
 
   parser.on('end', async () => {
