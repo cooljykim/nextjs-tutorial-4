@@ -109,3 +109,11 @@ So, I tried above, but still failing with:
 ```
 Module not found: Can't resolve '../build/Release/cap.node'
 ```
+
+I removed the `cap` module:
+
+```
+pnpm remove cap
+```
+
+Then, I need to see if there's an alternative module to use.
